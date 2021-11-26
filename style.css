@@ -65,9 +65,9 @@ body {
   color: var(--clr-dark-blue);
   font-family: var(--ff-main);
   font-size: var(--fs-16);
-  font-weight: var(--fw-light);
+  font-weight: var(--fw-regular);
   line-height: 1.555;
-  text-align: left;
+  text-align: center;
 }
 
 img {
@@ -78,6 +78,65 @@ img {
 /* ================== */
 /* Typography */
 /* ================== */
+.title {
+  font-size: var(--fs-40);
+  line-height: 1.175;
+  font-weight: var(--fw-light);
+}
+
+.title--m {
+  font-size: var(--fs-32);
+  margin: 0 auto;
+}
+
+.title--s {
+  font-size: var(--fs-20);
+}
+
+.text {
+  font-size: var(--fs-15);
+  color: var(--clr-grayish-blue);
+}
+
+.card__author {
+  font-size: var(--fs-10);
+  color: var(--clr-grayish-blue);
+  font-weight: var(--fw-light);
+}
+
+.card__title {
+  font-size: var(--fs-16);
+  font-weight: var(--fw-light);
+}
+
+.card__text {
+  font-size: var(--fs-13);
+  color: var(--clr-grayish-blue);
+}
+
+.copyright-text {
+  font-size: var(--fs-15);
+  color: var(--clr-white);
+}
+
+/* ================== */
+/* Links */
+/* ================== */
+
+/* ================== */
+/* Buttons & inputs */
+/* ================== */
+
+/* ================== */
+/* Utility styles */
+/* ================== */
+
+.wrapper {
+}
+
+.container {
+  padding: 0 1.5em;
+}
 
 /* ================== */
 /* ================== */
