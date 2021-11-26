@@ -49,6 +49,7 @@
   /* Primary */
 
   --clr-dark-blue: hsl(233, 26%, 24%);
+  --clr-dark-blue-semi-transparent: hsla(228, 39%, 23%, 0.5);
   --clr-lime-green: hsl(136, 65%, 51%);
   --clr-bright-cyan: hsl(192, 70%, 51%);
 
@@ -123,6 +124,28 @@ img {
 /* Links */
 /* ================== */
 
+.nav-link:link {
+  color: var(--clr-dark-blue);
+  text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--clr-dark-blue-semi-transparent);
+}
+
+.footer__link:link,
+.footer__link:visited {
+  color: var(--clr-white);
+  font-size: var(--fs-15);
+  letter-spacing: -0.23px;
+}
+
+.footer__link:hover,
+.footer__link:focus {
+  color: var(--clr-lime-green);
+}
+
 /* ================== */
 /* Buttons & inputs */
 /* ================== */
@@ -136,27 +159,4 @@ img {
 
 .container {
   padding: 0 1.5em;
-}
-
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
 }
