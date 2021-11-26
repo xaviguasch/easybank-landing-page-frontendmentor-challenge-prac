@@ -213,3 +213,69 @@ img {
 /* MAIN */
 
 /* Hero */
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+
+  padding-bottom: 5.5em;
+}
+
+.hero__illus-area {
+  order: -1;
+
+  overflow: hidden;
+
+  background: url('./images/bg-intro-mobile.svg') no-repeat;
+  background-position: 0% -50px;
+}
+
+.hero__illus-area img {
+  transform: translateY(-30%) scale(0.95);
+}
+
+.hero__copy-area {
+  margin-top: -8em;
+}
+
+.hero__copy-area .text {
+  margin-top: 1em;
+}
+
+.hero__copy-area .btn {
+  margin-top: 2em;
+}
+
+/* Features */
+.features {
+  background: var(--clr-light-grayish-blue);
+  padding-top: 4em;
+  padding-bottom: 4em;
+
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  gap: 3.5em;
+}
+
+.features__copy .text {
+  margin-top: 1em;
+}
+
+.features__list {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  gap: 2em;
+}
+
+.feat .title {
+  margin-top: 1.5em;
+}
+
+.feat .text {
+  margin-top: 1em;
+}
