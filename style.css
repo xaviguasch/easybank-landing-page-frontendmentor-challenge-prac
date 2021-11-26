@@ -178,3 +178,38 @@ img {
 .container {
   padding: 0 1.5em;
 }
+
+/* ================== */
+/* SECTIONS */
+/* ================== */
+
+/* HEADER */
+
+.header {
+  padding-top: 1.375em;
+  padding-bottom: 1.375em;
+}
+
+.header__row {
+  /* Flex */
+  display: flex;
+  place-content: center space-between;
+}
+
+.header__row .logo {
+  padding-top: 0.2em;
+}
+
+.open-nav-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.nav {
+  display: none;
+}
+
+/* MAIN */
+
+/* Hero */
