@@ -119,6 +119,11 @@ img {
   color: var(--clr-white);
 }
 
+.footer__signature {
+  font-size: var(--fs-12);
+  color: var(--clr-white);
+}
+
 /* ================== */
 /* Links */
 /* ================== */
@@ -142,6 +147,17 @@ img {
 
 .footer__link:hover,
 .footer__link:focus {
+  color: var(--clr-lime-green);
+}
+
+.signature-link {
+  color: var(--clr-white);
+  font-size: var(--fs-12);
+  font-weight: var(--fw-bold);
+}
+
+.signature-link:hover,
+.signature-link:focus {
   color: var(--clr-lime-green);
 }
 
@@ -319,4 +335,37 @@ img {
 /* FOOTER */
 
 .footer {
+  background: var(--clr-dark-blue);
+}
+
+.footer__elements {
+  padding: 2.5em 4em;
+
+  display: grid;
+  grid-template-rows: 1fr;
+  gap: 2em;
+}
+
+.footer__logo #logo-text {
+  fill: var(--clr-white);
+}
+
+.socials-list {
+  display: flex;
+  place-content: center;
+  gap: 1em;
+
+  list-style: none;
+}
+
+.footer__list li {
+  margin-bottom: 0.5em;
+}
+
+.copyright-text {
+  opacity: 0.5;
+}
+
+.footer__signature {
+  padding-bottom: 0.5em;
 }
