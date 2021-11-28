@@ -402,6 +402,10 @@ img {
   }
 
   .text {
+    font-size: var(--fs-18);
+  }
+
+  .feat .text {
     font-size: var(--fs-16);
   }
 
@@ -420,4 +424,91 @@ img {
 
 /* Laptop */
 @media (min-width: 1130px) {
+  body {
+    text-align: left;
+  }
+
+  /* Utility styles */
+  .container {
+    padding: 0 4.5em;
+    max-width: unset;
+  }
+
+  /* SECTIONS */
+
+  /* Header */
+  .header__row {
+    padding: 0 4.5em;
+  }
+
+  /* Hero */
+
+  .hero {
+    flex-direction: row;
+
+    padding-bottom: unset;
+  }
+
+  .hero__copy-area {
+    margin-top: unset;
+    padding: 0;
+
+    width: 100%;
+
+    flex: 1;
+  }
+
+  .hca__content {
+    margin: 10.5em 4.5em 0;
+    max-width: 450px;
+  }
+
+  .hero__copy-area .text {
+    margin-top: 1.5em;
+  }
+
+  .hero__copy-area .btn {
+    margin-top: 2.75em;
+  }
+
+  .hero__illus-area {
+    order: unset;
+
+    overflow: hidden;
+
+    background: url('./images/bg-intro-desktop.svg') no-repeat;
+    background-size: cover;
+    background-position: -55px -200px;
+
+    /* Trick to make the background image overflow */
+    padding-left: 50px;
+    margin-left: -50px;
+
+    width: 100%;
+    flex: 1;
+  }
+
+  .hero__illus-area img {
+    transform: translate(17%, -12%) scale(1.2);
+
+    padding-bottom: unset;
+  }
+
+  /* Features */
+  .features {
+    margin-top: -10em;
+  }
+
+  .features__copy {
+    padding: 0;
+    margin: 6em 4.5em 0;
+    max-width: 645px;
+  }
+
+  .features__list {
+    margin: 0em 4.5em 0;
+    padding: 0;
+
+    flex-direction: row;
+  }
 }
