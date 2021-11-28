@@ -374,3 +374,50 @@ img {
 .footer__signature {
   padding-bottom: 0.5em;
 }
+
+/* ================== */
+/* MEDIA QUERIES */
+/* ================== */
+
+/* pre-Tablet */
+@media (min-width: 575px) {
+  .hero__illus-area img {
+    transform: translateY(-20%) scale(0.95);
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  /* Typography */
+  .title {
+    font-size: var(--fs-56);
+  }
+
+  .title--m {
+    font-size: var(--fs-40);
+  }
+
+  .title--s {
+    font-size: var(--fs-20);
+  }
+
+  .text {
+    font-size: var(--fs-16);
+  }
+
+  /* SECTIONS */
+
+  .hero__illus-area img {
+    transform: translateY(-20%) scale(0.95);
+    margin: 0 auto;
+    padding-bottom: 3em;
+  }
+
+  .hero__copy-area {
+    margin-top: 0em;
+  }
+}
+
+/* Laptop */
+@media (min-width: 1130px) {
+}
