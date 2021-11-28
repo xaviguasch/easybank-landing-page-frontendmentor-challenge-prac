@@ -193,6 +193,8 @@ img {
 
 .container {
   padding: 0 1.5em;
+  max-width: 475px;
+  margin: 0 auto;
 }
 
 /* ================== */
@@ -207,6 +209,8 @@ img {
 }
 
 .header__row {
+  padding: 0 1.5em;
+
   /* Flex */
   display: flex;
   place-content: center space-between;
@@ -244,7 +248,8 @@ img {
   overflow: hidden;
 
   background: url('./images/bg-intro-mobile.svg') no-repeat;
-  background-position: 0% -50px;
+  background-size: cover;
+  background-position: 100% -80px;
 }
 
 .hero__illus-area img {
