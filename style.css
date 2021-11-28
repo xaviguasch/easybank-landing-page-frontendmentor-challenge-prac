@@ -150,6 +150,11 @@ img {
   color: var(--clr-lime-green);
 }
 
+.social-link:hover path,
+.social-link:visited path {
+  fill: var(--clr-lime-green);
+}
+
 .signature-link {
   color: var(--clr-white);
   font-size: var(--fs-12);
