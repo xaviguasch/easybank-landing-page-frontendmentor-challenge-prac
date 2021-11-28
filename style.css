@@ -497,6 +497,9 @@ img {
   /* Features */
   .features {
     margin-top: -10em;
+    padding-bottom: 5.875em;
+    /*Flex */
+    gap: 4.5em;
   }
 
   .features__copy {
@@ -510,5 +513,18 @@ img {
     padding: 0;
 
     flex-direction: row;
+  }
+
+  /* Articles */
+  .articles {
+    padding: 5.5em 4.5em;
+  }
+
+  .articles__list {
+    flex-direction: row;
+  }
+
+  .card__img img {
+    height: 200px;
   }
 }
