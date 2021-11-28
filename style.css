@@ -308,8 +308,7 @@ img {
 
 /* Articles */
 .articles {
-  padding-top: 5.5em;
-  padding-bottom: 5.5em;
+  padding: 5.5em 0;
 
   background: var(--clr-very-light-gray);
 }
@@ -423,7 +422,7 @@ img {
   }
 
   .hero__copy-area {
-    margin-top: 0em;
+    margin-top: -10em;
   }
 }
 
@@ -526,7 +525,11 @@ img {
   }
 
   .articles__list {
+    padding: 0;
     flex-direction: row;
+  }
+
+  .card {
   }
 
   .card__img img {
@@ -584,5 +587,18 @@ img {
   .footer__signature {
     margin-top: 5em;
     text-align: center;
+  }
+}
+
+/* ULTRAWIDE */
+@media (min-width: 1420px) {
+  /* Utility styles */
+  .container {
+    padding: 0 8em;
+    max-width: unset;
+  }
+
+  .articles .title {
+    margin-left: 128px; /* Bit tacky but it solves an aligment bug */
   }
 }
