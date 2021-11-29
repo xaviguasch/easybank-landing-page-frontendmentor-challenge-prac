@@ -141,6 +141,12 @@ img {
   opacity: 0.4;
 }
 
+.card__title:hover,
+.card__title:focus {
+  cursor: pointer;
+  color: var(--clr-lime-green);
+}
+
 .footer__link:link,
 .footer__link:visited {
   color: var(--clr-white);
@@ -234,7 +240,6 @@ img {
   cursor: pointer;
 }
 
-/* Add closed attribute when the modal is opened so the btn doesn't overlap */
 .open-nav-btn.open-nav-btn--hidden {
   display: none;
 }
@@ -511,6 +516,44 @@ img {
     display: none;
   }
 
+  .nav {
+    height: unset;
+    padding: 0 4em;
+    width: unset;
+    z-index: unset;
+    /* Position */
+    position: unset;
+    top: unset;
+    left: unset;
+    right: unset;
+    bottom: unset;
+    /* Flex */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+    /* Background */
+    background: unset;
+  }
+
+  .nav .buttons-area {
+    display: none;
+  }
+
+  .nav .btn {
+    display: block;
+  }
+
+  .nav-list {
+    background: unset;
+    padding: 0;
+    /* Flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+  }
+
   /* Hero */
 
   .hero {
@@ -613,7 +656,7 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 2fr;
     grid-template-rows: auto auto;
-    grid-column-gap: 10em;
+    grid-column-gap: 8em;
   }
 
   .footer__logo {
